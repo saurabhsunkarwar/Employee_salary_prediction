@@ -28,25 +28,25 @@ The underlying ML algorithm processes three key quantitative features to evaluat
 
 Follow these rapid steps to spin up the predictive application locally on your computer:
 
-1. Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com
    cd Employee_salary_prediction
    ```
 
-2. Create and spin up a Python virtual environment:**
+2. Create and spin up a Python virtual environment:
    ```bash
    # Windows
    python -m venv venv
    venv\Scripts\activate
    ```
 
-3. Install application dependencies:**
+3. Install application dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Launch the Flask application server:**
+4. Launch the Flask application server:
    ```bash
    python app.py
    ```
